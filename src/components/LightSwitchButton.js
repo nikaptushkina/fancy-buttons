@@ -3,6 +3,7 @@ import React from 'react'; //optional
 function LightSwitchButton(props){
 
   const {light, switchLight} = props
+  const handleClick = () => switchLight;
 
   return (
     <button onClick={switchLight} className="LightSwitchButton">
